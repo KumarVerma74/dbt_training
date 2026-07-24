@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_music__albums
+    description: This has name of music albums
+    columns:
+      - name: album_id
+        tests:
+          - unique
+          - not_null
+          
+  - name: stg_music__artists
+  - name: stg_music__customers
